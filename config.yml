@@ -1,9 +1,12 @@
 baseURL: 'https://coreyborad.github.io/'
 defaultContentLanguage: en
 languageCode: en
-title: '!@#$%'
+title: 'Corey Post'
 theme: FeelIt
 googleAnalytics: 'G-5TD5T0THK1'
+ignoreErrors: ["err-missing-comment-accesstoken", "err-missing-oembed-accesstoken"]
+enableGitInfo: true
+enableRobotsTXT: true
 author:
   name: "Corey"
 sitemap:
