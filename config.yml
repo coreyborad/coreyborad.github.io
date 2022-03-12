@@ -4,6 +4,8 @@ languageCode: en
 title: '!@#$%'
 theme: LoveIt
 googleAnalytics: ''
+author:
+  name: "Corey"
 params:
   version: 0.2.X
   defaultTheme: dark
