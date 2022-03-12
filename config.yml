@@ -10,6 +10,13 @@ params:
   version: 0.2.X
   defaultTheme: dark
   dateFormat: '2006-01-02'
+  page:
+    share:
+      enable: false
+    comment:
+      disqus:
+        enable: true
+        shortname: "coreyborad"
   header:
     desktopMode: fixed
     mobileMode: auto

@@ -5,3 +5,11 @@ tags: ["shortcodes"]
 categories: ["documentation"]
 ---
 asd
+
+```go
+test := "asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd"
+```
+asd
+```javascript
+console.log("asd")
+```
