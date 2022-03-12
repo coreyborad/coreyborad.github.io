@@ -2,26 +2,41 @@ baseURL: 'https://coreyborad.github.io/'
 defaultContentLanguage: en
 languageCode: en
 title: '!@#$%'
-theme: LoveIt
-googleAnalytics: ''
+theme: FeelIt
+googleAnalytics: 'G-5TD5T0THK1'
 author:
   name: "Corey"
+sitemap:
+  changefreq: "weekly"
+  filename: "sitemap.xml"
+  priority: 0.5
 params:
-  version: 0.2.X
+  version: '1.0.X'
   defaultTheme: dark
   dateFormat: '2006-01-02'
   page:
     share:
       enable: false
     comment:
+      enable: true
       disqus:
         enable: true
         shortname: "coreyborad"
+    code:
+      copy: true
+      maxShownLines: 50
+    toc:
+      enable: true
+      keepStatic: false
+      auto: true
   header:
     desktopMode: fixed
     mobileMode: auto
   footer:
     enable: true
+    hugo: true
+    copyright: true
+    author: false
   search:
     enable: true
     type: algolia
